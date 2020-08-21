@@ -1,6 +1,6 @@
 let obj = function (){
-    name = "xyz";
-    fullname = this.name + "mnp";
+    let name = "xyz";
+    fullname = name + "mnp";
     console.log(fullname);
     }
 obj();
